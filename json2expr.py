@@ -82,9 +82,3 @@ if __name__ == "__main__":
         expr = json_to_bcftools_expr(input_json)
         bcftools_filter(expr, norm_vcf, output_vcf)
     print('done')
-
-'''
-IN_VCF = '/home/yuliang/SV_VCF/SAMPLE_mutect2_raw.vcf'
-IN_JSON = '/home/yuliang/SV_VCF/test.json'
-OUT_VCF = '/home/yuliang/SV_VCF/final.vcf'
-'''
