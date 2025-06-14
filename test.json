@@ -1,0 +1,6 @@
+{
+  "INFO.TLOD": ">=10",
+  "INFO.DP": ">=20",
+  "INFO.ECNT": "=1",
+  "FORMAT.DP": ">10"
+}
